@@ -88,11 +88,13 @@ header h1{
 }
 .image{
 display: flex;
-  background-position: center;
-   flex-wrap: wrap;
+ flex-wrap: wrap;
 }
-img{
-    width: 527.6px;
+.img1{
+    width: 527px;
+}
+.img3{
+    width: 527px;
 }
 .small-container p{
     margin-top: 3rem;
@@ -481,4 +483,67 @@ line-height: 2rem;
            .sample-button{
                padding-bottom: 40px;
            }
-}
+        }
+
+        @media (max-width: 1330px) {
+            .img1{
+                width: 373px;
+            }
+            .img3{
+                width: 373px;
+            }
+            .article img{
+                margin-left: 7px;
+            }
+        }        
+        @media (min-width: 1349px) {
+            .img1{
+                width: 447px;
+            }
+            .img3{
+                width: 447px;
+            }
+            .article img{
+                margin-left: 170px;
+            }
+            .input-text{
+                margin-left: 180px;
+            }
+            .rule{
+                width: 45vw;
+            }
+        }
+        @media (min-width: 1275px) {
+            .img1{
+                width: 425px;
+            }
+            .img3{
+                width: 425px;
+            }
+            .input-text{
+                margin-left: 170px;
+            }
+            .rule{
+                width: 45vw;
+            }
+            .article img{
+                margin-left: 100px;
+            }
+
+        }
+        @media (min-width:1128px) {
+            .input-text{
+                margin-left: 100px;
+            }
+            .submit{
+                margin-left: -53px;
+            }
+        }
+        @media (min-width: 1069px) {
+            .img1{
+                width: 356px;
+            }
+            .img3{
+                width: 356px;
+            }
+        }
